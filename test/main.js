@@ -4,7 +4,7 @@ const romanize = require('../src/romanize')
 describe('basic', function() {
     it('is correct', function() {
         assert.equal(romanize('\u0391'), 'A')
-        assert.equal(romanize('\u0392'), 'V')
+        assert.equal(romanize('\u0392'), 'B')
         assert.equal(romanize('\u0393'), 'G')
         assert.equal(romanize('\u0394'), 'D')
         assert.equal(romanize('\u0395'), 'E')
@@ -23,7 +23,7 @@ describe('basic', function() {
         assert.equal(romanize('\u03a3'), 'S')
         assert.equal(romanize('\u03a4'), 'T')
         assert.equal(romanize('\u03a5'), 'Y')
-        assert.equal(romanize('\u03a6'), 'F')
+        assert.equal(romanize('\u03a6'), 'PH')
         assert.equal(romanize('\u03a7'), 'CH')
         assert.equal(romanize('\u03a8'), 'PS')
         assert.equal(romanize('\u03a9'), 'O')
